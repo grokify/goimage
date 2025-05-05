@@ -20,9 +20,9 @@ require (
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/rustyoz/svg v0.0.0-20240916132020-37383a9eebb1
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
-	github.com/unidoc/unipdf/v3 v3.66.0
-	golang.org/x/image v0.22.0
-	golang.org/x/term v0.27.0
+	github.com/unidoc/unipdf/v3 v3.69.0
+	golang.org/x/image v0.24.0
+	golang.org/x/term v0.29.0
 )
 
 require (
@@ -31,7 +31,7 @@ require (
 	github.com/adrg/xdg v0.5.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/ebitengine/purego v0.8.1 // indirect
-	github.com/gabriel-vasile/mimetype v1.4.7 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.8 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
 	github.com/gorilla/i18n v0.0.0-20150820051429-8b358169da46 // indirect
 	github.com/huandu/xstrings v1.5.0 // indirect
@@ -44,17 +44,17 @@ require (
 	github.com/rustyoz/genericlexer v0.0.0-20190224115003-eb82fd2987bd // indirect
 	github.com/rwcarlsen/goexif v0.0.0-20190401172101-9e8deecbddbd // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
-	github.com/stretchr/testify v1.9.0 // indirect
+	github.com/stretchr/testify v1.10.0 // indirect
 	github.com/unidoc/freetype v0.2.3 // indirect
 	github.com/unidoc/pkcs7 v0.2.0 // indirect
 	github.com/unidoc/timestamp v0.0.0-20200412005513-91597fd3793a // indirect
-	github.com/unidoc/unichart v0.3.0 // indirect
-	github.com/unidoc/unitype v0.4.0 // indirect
-	golang.org/x/crypto v0.31.0 // indirect
+	github.com/unidoc/unichart v0.4.0 // indirect
+	github.com/unidoc/unitype v0.5.1 // indirect
+	golang.org/x/crypto v0.33.0 // indirect
 	golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f // indirect
-	golang.org/x/net v0.33.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/net v0.35.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
