@@ -1,8 +1,7 @@
 module github.com/grokify/goimage
 
 go 1.22.0
-
-toolchain go1.22.3
+toolchain go1.24.1
 
 require (
 	github.com/adrium/goheif v0.0.0-20230113233934-ca402e77a786
@@ -21,7 +20,7 @@ require (
 	github.com/rustyoz/svg v0.0.0-20240916132020-37383a9eebb1
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	github.com/unidoc/unipdf/v3 v3.66.0
-	golang.org/x/image v0.22.0
+	golang.org/x/image v0.27.0
 	golang.org/x/term v0.27.0
 )
 
@@ -54,7 +53,7 @@ require (
 	golang.org/x/exp v0.0.0-20241108190413-2d47ceb2692f // indirect
 	golang.org/x/net v0.33.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/text v0.25.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
