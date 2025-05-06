@@ -8,7 +8,7 @@ require (
 	github.com/adrium/goheif v0.0.0-20230113233934-ca402e77a786
 	github.com/andybons/gogif v0.0.0-20140526152223-16d573594812
 	github.com/brunsgaard/go-pdfium-render v0.0.0-20190126055834-b01df5200e99
-	github.com/chai2010/webp v1.1.1
+	github.com/chai2010/webp v1.4.0
 	github.com/disintegration/imaging v1.6.2
 	github.com/esimov/pigo v1.4.6
 	github.com/fogleman/gg v1.3.0
