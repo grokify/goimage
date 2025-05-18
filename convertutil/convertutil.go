@@ -149,7 +149,7 @@ func ConvertToPDF(sourcePath, outputPath string) (bytes.Buffer, bytes.Buffer, er
 	}
 
 	b := bytes.NewBuffer([]byte(""))
-	err = imageutil.ResizeFileJPEG(sourcePath, outputPath, uint(outputWidth), uint(outputHeight), -1)
+	err = imageutil.ResizeFileJPEG(sourcePath, outputPath, outputWidth, outputHeight, -1)
 	return *b, *b, err
 	//return executil.ExecSimple(command)
 }

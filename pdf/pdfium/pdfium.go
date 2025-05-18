@@ -22,7 +22,7 @@ func ImageMetadata(img image.Image) Metadata {
 	return m
 }
 
-func ConvertPDFPageToPNG(srcFilename, dstFilename string, pgIndex, dpi, minWidth uint) error {
+func ConvertPDFPageToPNG(srcFilename, dstFilename string, pgIndex, dpi uint, minWidth int) error {
 	img, err := ReadPDFPageImage(srcFilename, pgIndex, dpi)
 	if err != nil {
 		return err

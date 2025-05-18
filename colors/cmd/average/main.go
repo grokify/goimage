@@ -25,7 +25,7 @@ func main() {
 		log.Fatal(err)
 	}
 	avgClr := colors.ColorAverageImage(img)
-	fmt.Printf("COLOR [%s]\n", colors.ColorToHex(avgClr))
+	fmt.Printf("COLOR [%s]\n", colors.ColorToHex(avgClr, false, false))
 
 	if 1 == 0 {
 		img2 := imageutil.AddBorderAverageColor(img, 100)

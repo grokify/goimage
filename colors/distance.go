@@ -66,7 +66,7 @@ func DistancesMore(alg string, comp color.Color, c []color.Color) ([]ColorDistan
 		}
 		dists = append(dists, ColorDistance{
 			Color:    cx,
-			ColorHex: colors.ColorToHex(cx),
+			ColorHex: colors.ColorToHex(cx, false, false),
 			Distance: dist})
 	}
 	return dists, nil

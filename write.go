@@ -16,7 +16,7 @@ const (
 	JPEGQualityMax     int = 100
 )
 
-func ResizeFileJPEG(inputFile, outputFile string, outputWidth, outputHeight uint, quality int) error {
+func ResizeFileJPEG(inputFile, outputFile string, outputWidth, outputHeight, quality int) error {
 	img, _, err := imageutil.ReadImageFile(inputFile)
 	if err != nil {
 		return err

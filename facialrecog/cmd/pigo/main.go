@@ -14,7 +14,7 @@ import (
 	"github.com/esimov/pigo/utils"
 	"github.com/fogleman/gg"
 	"github.com/grokify/goimage/facialrecog/pigoutil"
-	"github.com/grokify/mogo/type/stringsutil"
+	"github.com/grokify/mogo/type/strslices"
 	"golang.org/x/term"
 )
 
@@ -162,7 +162,7 @@ func main() {
 			// fileTypes := []string{".jpg", ".jpeg", ".png"}
 			ext := filepath.Ext(det.Destination)
 
-			if stringsutil.SliceIndex(pigoutil.FileExtensionSupported(), ext, false, nil) < 0 {
+			if strslices.Index(pigoutil.FileExtensionSupported(), ext, false, nil) < 0 {
 				log.Fatalf("Output file type not supported: %v", ext)
 			}
 
