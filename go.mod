@@ -21,7 +21,7 @@ require (
 	github.com/rustyoz/svg v0.0.0-20241220015722-331a934de51d
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	github.com/unidoc/unipdf/v3 v3.69.0
-	golang.org/x/image v0.27.0
+	golang.org/x/image v0.28.0
 	golang.org/x/term v0.32.0
 )
 
@@ -54,7 +54,7 @@ require (
 	golang.org/x/exp v0.0.0-20250506013437-ce4c2cf36ca6 // indirect
 	golang.org/x/net v0.40.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.25.0 // indirect
+	golang.org/x/text v0.26.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
