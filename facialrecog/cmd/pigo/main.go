@@ -122,7 +122,7 @@ func main() {
 
 	log.SetFlags(0)
 	flag.Usage = func() {
-		fmt.Fprintf(os.Stderr, fmt.Sprintf(banner, Version))
+		fmt.Fprintf(os.Stderr, banner, Version)
 		flag.PrintDefaults()
 	}
 	flag.Parse()
@@ -200,11 +200,14 @@ func main() {
 			out = os.Stdout
 		} else {
 			f, err := os.Create(*jsonf)
+			if err != nil {
+				log.Fatalf("Error creating the image output: %s", err)
+			}
 			defer f.Close()
 			if err != nil {
 				ind.StopMsg = fmt.Sprintf("Detecting faces... %s failed ✗%s\n", errorColor, defaultColor)
 				ind.Stop()
-				log.Fatalf(fmt.Sprintf("%sCould not create the json file: %v%s", errorColor, err, defaultColor))
+				log.Fatalf("%sCould not create the json file: %v%s", errorColor, err, defaultColor)
 			}
 			out = f
 		}
@@ -213,10 +216,10 @@ func main() {
 	ind.Stop()
 
 	if len(dets) > 0 {
-		log.Printf(fmt.Sprintf("\n%s%d%s face(s) detected", successColor, len(dets), defaultColor))
+		log.Printf("\n%s%d%s face(s) detected", successColor, len(dets), defaultColor)
 
 		if *jsonf != "" && out == os.Stdout {
-			log.Printf(fmt.Sprintf("\n%sThe detection coordinates of the found faces:%s", successColor, defaultColor))
+			log.Printf("\n%sThe detection coordinates of the found faces:%s", successColor, defaultColor)
 		}
 
 		if out != nil {
@@ -225,10 +228,10 @@ func main() {
 			}
 		}
 	} else {
-		log.Printf(fmt.Sprintf("\n%sno detected faces!%s", errorColor, defaultColor))
+		log.Printf("\n%sno detected faces!%s", errorColor, defaultColor)
 	}
 
-	log.Printf(fmt.Sprintf("\nExecution time: %s%.2fs%s\n", successColor, time.Since(start).Seconds(), defaultColor))
+	log.Printf("\nExecution time: %s%.2fs%s\n", successColor, time.Since(start).Seconds(), defaultColor)
 }
 
 /*
