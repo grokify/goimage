@@ -14,7 +14,7 @@ require (
 	github.com/gen2brain/go-fitz v1.24.15
 	github.com/grokify/mogo v0.70.12
 	github.com/jessevdk/go-flags v1.6.1
-	github.com/lucasb-eyer/go-colorful v1.2.0
+	github.com/lucasb-eyer/go-colorful v1.3.0
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/rustyoz/svg v0.0.0-20250705135709-8b1786137cb3
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
@@ -40,6 +40,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rustyoz/Mtransform v0.0.0-20250628105438-00796a985d0a // indirect
 	github.com/rustyoz/genericlexer v0.0.0-20250522144106-d3cfee480384 // indirect
+	github.com/rwcarlsen/goexif v0.0.0-20190401172101-9e8deecbddbd // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/stretchr/testify v1.10.0 // indirect
 	github.com/unidoc/freetype v0.2.3 // indirect
