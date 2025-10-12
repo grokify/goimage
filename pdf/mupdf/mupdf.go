@@ -40,7 +40,7 @@ func ConvertFilePageToPNGFile(srcPath, outPath string, pageIndex uint, width, he
 		return err
 	} else {
 		if isPadding != nil {
-			img = imageutil.CropPadding(img, isPadding)
+			img = imageutil.CropPadding(img, isPadding, 0)
 		}
 		if width > 0 || height > 0 {
 			img = imageutil.Resize(width, height, img, scaler)
