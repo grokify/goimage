@@ -12,7 +12,7 @@ require (
 	github.com/fogleman/gg v1.3.0
 	github.com/fogleman/primitive v0.0.0-20200504002142-0373c216458b
 	github.com/gen2brain/go-fitz v1.24.15
-	github.com/grokify/mogo v0.71.2
+	github.com/grokify/mogo v0.71.8
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/lucasb-eyer/go-colorful v1.3.0
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
@@ -49,9 +49,9 @@ require (
 	github.com/unidoc/unichart v0.5.1 // indirect
 	github.com/unidoc/unitype v0.5.1 // indirect
 	golang.org/x/crypto v0.43.0 // indirect
-	golang.org/x/exp v0.0.0-20251009144603-d2f985daa21b // indirect
+	golang.org/x/exp v0.0.0-20251023183803-a4bb9ffd2546 // indirect
 	golang.org/x/net v0.46.0 // indirect
-	golang.org/x/sys v0.37.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
 	golang.org/x/text v0.30.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
