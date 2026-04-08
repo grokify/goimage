@@ -14,7 +14,7 @@ require (
 	github.com/gen2brain/go-fitz v1.24.15
 	github.com/grokify/mogo v0.71.2
 	github.com/jessevdk/go-flags v1.6.1
-	github.com/lucasb-eyer/go-colorful v1.3.0
+	github.com/lucasb-eyer/go-colorful v1.4.0
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/rustyoz/svg v0.0.0-20250705135709-8b1786137cb3
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
