@@ -11,7 +11,7 @@ require (
 	github.com/esimov/pigo v1.4.6
 	github.com/fogleman/gg v1.3.0
 	github.com/fogleman/primitive v0.0.0-20200504002142-0373c216458b
-	github.com/gen2brain/go-fitz v1.24.15
+	github.com/gen2brain/go-fitz v1.28.0
 	github.com/grokify/mogo v0.71.2
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/lucasb-eyer/go-colorful v1.3.0
@@ -28,13 +28,12 @@ require (
 	github.com/adrg/sysfont v0.1.2 // indirect
 	github.com/adrg/xdg v0.5.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/ebitengine/purego v0.9.0 // indirect
+	github.com/ebitengine/purego v0.10.1 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.10 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
 	github.com/gorilla/i18n v0.0.0-20150820051429-8b358169da46 // indirect
 	github.com/huandu/xstrings v1.5.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/jupiterrider/ffi v0.5.1 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
