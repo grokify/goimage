@@ -12,14 +12,14 @@ require (
 	github.com/fogleman/gg v1.3.0
 	github.com/fogleman/primitive v0.0.0-20200504002142-0373c216458b
 	github.com/gen2brain/go-fitz v1.28.2
-	github.com/grokify/mogo v0.74.6
+	github.com/grokify/mogo v0.74.7
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/lucasb-eyer/go-colorful v1.4.1
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/rustyoz/svg v0.0.0-20260625015314-1aeec84fa7e2
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	github.com/unidoc/unipdf/v3 v3.69.0
-	golang.org/x/image v0.43.0
+	golang.org/x/image v0.44.0
 	golang.org/x/term v0.45.0
 )
 
@@ -44,11 +44,11 @@ require (
 	github.com/unidoc/timestamp v0.0.0-20200412005513-91597fd3793a // indirect
 	github.com/unidoc/unichart v0.5.2 // indirect
 	github.com/unidoc/unitype v0.5.1 // indirect
-	golang.org/x/crypto v0.53.0 // indirect
-	golang.org/x/exp v0.0.0-20260611194520-c48552f49976 // indirect
-	golang.org/x/net v0.56.0 // indirect
+	golang.org/x/crypto v0.54.0 // indirect
+	golang.org/x/exp v0.0.0-20260727155853-b88d891fe743 // indirect
+	golang.org/x/net v0.57.0 // indirect
 	golang.org/x/sys v0.47.0 // indirect
-	golang.org/x/text v0.38.0 // indirect
+	golang.org/x/text v0.40.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
