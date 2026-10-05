@@ -12,15 +12,15 @@ require (
 	github.com/fogleman/gg v1.3.0
 	github.com/fogleman/primitive v0.0.0-20200504002142-0373c216458b
 	github.com/gen2brain/go-fitz v1.28.2
-	github.com/grokify/mogo v0.74.7
+	github.com/grokify/mogo v0.75.0
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/lucasb-eyer/go-colorful v1.4.1
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/rustyoz/svg v0.0.0-20260625015314-1aeec84fa7e2
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	github.com/unidoc/unipdf/v3 v3.69.0
-	golang.org/x/image v0.44.0
-	golang.org/x/term v0.45.0
+	golang.org/x/image v0.46.0
+	golang.org/x/term v0.46.0
 )
 
 require (
@@ -32,7 +32,7 @@ require (
 	github.com/gabriel-vasile/mimetype v1.4.13 // indirect
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0 // indirect
 	github.com/gorilla/i18n v0.0.0-20150820051429-8b358169da46 // indirect
-	github.com/huandu/xstrings v1.5.0 // indirect
+	github.com/huandu/xstrings v1.6.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/rustyoz/Mtransform v0.0.0-20250628105438-00796a985d0a // indirect
 	github.com/rustyoz/genericlexer v0.0.0-20250522144106-d3cfee480384 // indirect
@@ -44,11 +44,11 @@ require (
 	github.com/unidoc/timestamp v0.0.0-20200412005513-91597fd3793a // indirect
 	github.com/unidoc/unichart v0.5.2 // indirect
 	github.com/unidoc/unitype v0.5.1 // indirect
-	golang.org/x/crypto v0.54.0 // indirect
-	golang.org/x/exp v0.0.0-20260727155853-b88d891fe743 // indirect
-	golang.org/x/net v0.57.0 // indirect
-	golang.org/x/sys v0.47.0 // indirect
-	golang.org/x/text v0.40.0 // indirect
+	golang.org/x/crypto v0.57.0 // indirect
+	golang.org/x/exp v0.0.0-20260908205506-85c1c2202aba // indirect
+	golang.org/x/net v0.59.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
